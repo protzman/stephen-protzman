@@ -1,20 +1,27 @@
 import React from "react"
-import { Link } from "gatsby"
-
+import Container from '@material-ui/core/Container'
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
+import About from '../components/about'
+import Experience from '../components/experience'
+import SocialIcons from "../components/socialIcons";
+
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+    <div >
+      <Image />=
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
+    <Container style={{ textAlign: 'center' }}>
+      <div style={{ marginTop: '2em' }} id="about_me">
+        <About />
+      </div>
+      <div style={{ marginTop: '2em' }} id="experience">
+        <Experience />
+      </div>
+    </Container>
   </Layout>
 )
 
