@@ -21,6 +21,12 @@ const IndexPage = () => (
       <div style={{ marginTop: '2em' }} id="experience">
         <Experience />
       </div>
+      <div style={{ marginTop: '2em' }} id="experience">
+        <Experience />
+      </div>
+      <div style={{ marginTop: '2em' }} id="experience">
+        <Experience />
+      </div>
     </Container>
   </Layout>
 )
